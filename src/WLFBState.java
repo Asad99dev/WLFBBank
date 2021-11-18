@@ -157,6 +157,27 @@ public class WLFBState {
 
 			}
 
+		} else if (theInput.equalsIgnoreCase("5")) {
+
+			switch (myThreadName) {
+
+			case "WLFBServerThread1":
+				System.exit(threadsWaiting);
+
+				break;
+
+			case "WLFBServerThread2":
+				System.exit(threadsWaiting);
+
+				break;
+
+			case "WLFBServerThread3":
+				System.exit(threadsWaiting);
+
+				break;
+
+			}
+
 		}
 
 		else { // incorrect request

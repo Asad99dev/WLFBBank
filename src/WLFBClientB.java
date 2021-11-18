@@ -40,6 +40,7 @@ public class WLFBClientB {
 		System.out.println("[2] Subtract money from your account");
 		System.out.println("[3] Transfer money to another account");
 		System.out.println("[4] Check your account balance");
+		System.out.println("[5] Exit the application");
 
 		while (true) {
 
